@@ -1,0 +1,22 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  transition: all 0.3s;
+}
+a {
+  text-decoration: none;
+}
+input,
+select {
+  border: 0px;
+  outline: 0px;
+}
+div[class*="row"] {
+  padding-left: 0px;
+  margin: 0px;
+}
+div[class*="col"] {
+  padding: 0px;
+  margin: 0px;
+}

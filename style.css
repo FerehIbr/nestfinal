@@ -1,0 +1,308 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+a {
+  text-decoration: none;
+}
+
+input,
+select {
+  border: 0px;
+  outline: 0px;
+}
+
+div[class*="row"] {
+  padding-left: 0px;
+  margin: 0px;
+}
+
+div[class*="col"] {
+  padding: 0px;
+  margin: 0px;
+}
+
+#header .header-top {
+  font-family: "Lato", sans-serif;
+  padding: 10px 0;
+  color: #7e7e7e;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid #ececec;
+  overflow-x: clip;
+}
+
+#header .header-top ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+#header .header-top ul li {
+  font-size: 13px;
+  position: relative;
+}
+
+#header .header-top ul li a {
+  color: #7e7e7e;
+}
+
+#header .header-top ul li::before {
+  content: "";
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 1px;
+  height: 10px;
+  background-color: #dedfe2;
+}
+
+#header .header-top ul li:last-child::before {
+  width: 0;
+}
+
+#header .header-top .left ul li a {
+  margin-right: 20px;
+}
+
+#header .header-top .center p {
+  margin: 0px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+#header .header-top .right ul li {
+  text-align: right;
+  position: relative;
+}
+
+#header .header-top .right ul li p {
+  margin: 0px;
+}
+
+#header .header-top .right ul li p span {
+  color: #3bb77e;
+}
+
+#header .header-top .right ul li a {
+  margin-left: 20px;
+}
+
+#header .header-top .right ul li a i {
+  font-size: 12px;
+  margin: 3px;
+}
+
+#header .header-top .right ul li .dropdown {
+  position: absolute;
+  top: 30px;
+  right: -10px;
+  width: 100px;
+  padding: 10px 15px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  z-index: 2;
+  border-radius: 4px;
+  background-color: white;
+  border: 1px solid #ececec;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: translateY(20px);
+          transform: translateY(20px);
+}
+
+#header .header-top .right ul li .dropdown li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+  padding: 3px;
+}
+
+#header .header-top .right ul li .dropdown li a img {
+  width: 15px;
+}
+
+#header .header-top .right ul li .dropdown li a span {
+  font-size: 13px;
+  color: #253d4e;
+  margin-left: 5px;
+}
+
+#header .header-top .right ul li .dropdown li:before {
+  width: 0px;
+}
+
+#header .header-top .right ul li .money {
+  left: 0px;
+}
+
+#header .header-top .right ul li:hover .dropdown {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+}
+
+#header .header-top .right ul li::before {
+  right: -10px;
+}
+
+#header .header-middle {
+  padding: 30px 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#header .header-middle .left .logo img {
+  width: 180px;
+}
+
+#header .header-middle .center #myform {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 2px solid #bce3c9;
+  border-radius: 4px;
+  width: 95%;
+  font-size: 14px;
+  padding: 5px 0;
+}
+
+#header .header-middle .right .account ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  list-style: none;
+}
+
+#header .header-middle .right .account ul li a {
+  color: #7e7e7e;
+  font-size: 16px;
+}
+
+#header .header-middle .right .account ul li a sup {
+  padding: 3px;
+  width: 5px;
+  height: 5px;
+  line-height: 5px;
+  border-radius: 50%;
+  background-color: #3bb77e;
+  color: white;
+}
+
+#navbar-bottom {
+  background-color: #3bb77e;
+  padding: 20px 0;
+}
+
+#navbar-bottom .tc {
+  color: white;
+  background-color: #fdc040;
+  padding: 5px 15px;
+  border-radius: 6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#navbar-bottom .navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#navbar-bottom .navigation .deals {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  white-space: nowrap;
+  color: #fff;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+#navbar-bottom .navigation .deals img {
+  width: 20px;
+}
+
+#navbar-bottom .navigation ul {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  width: 100%;
+  padding: 0 20px;
+}
+
+#navbar-bottom .navigation ul li a {
+  font-size: 14px;
+  color: #fff;
+}
+
+.contact img {
+  font-size: 15px;
+}
+
+.contact .contactwith {
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
