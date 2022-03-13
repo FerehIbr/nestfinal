@@ -1,0 +1,1390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Quicksand:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="overlay"></div>
+
+    <div class="sidebar">
+        <div class="sidebar-inner">
+            <div class="top">
+                <div class="logo">
+                    <img src="img/logo.svg" alt="">
+                </div>
+                <div class="close" id="btn-close-navbar">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="search">
+                    <input type="text" placeholder="Search for items...">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div class="sidebar-menu">
+                    <nav>
+                        <ul class="navigation">
+                            <li class="nav-item">
+                                <i class="fa-solid fa-angle-down"></i>
+                                <a href="#">Home</a>
+                                <ul class="dropdown">
+                                    <li><a href="#">Home 1</a></li>
+                                    <li><a href="#">Home 2</a></li>
+                                    <li><a href="#">Home 3</a></li>
+                                    <li><a href="#">Home 4</a></li>
+                                    <li><a href="#">Home 5</a></li>
+                                    <li><a href="#">Home 6</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <i class="fa-solid fa-angle-down"></i>
+                                <a href="#">Shop</a>
+                                <ul class="dropdown">
+                                    <li><a href="#">Shop Grid - Right Sidebar</a></li>
+                                    <li><a href="#">Shop Grid - Left Sidebar</a></li>
+                                    <li><a href="#">Shop List - Right Sidebar</a></li>
+                                    <li><a href="#">Shop List - Left Sidebar</a></li>
+                                    <li><a href="shopwide.html">Shop - Wide</a></li>
+                                    <li>
+                                        <i class="fa-solid fa-angle-down"></i>
+                                        <a href="#">Single Product</a>
+                                        <ul class="dropdown">
+                                            <li><a href="#">Product – Right Sidebar</a></li>
+                                            <li><a href="#">Product – Left Sidebar</a></li>
+                                            <li><a href="#">Product – No Sidebar</a></li>
+                                            <li><a href="#">Product – Vendor Info</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Shop - Filter</a></li>
+                                    <li><a href="#">Shop - Wishlist</a></li>
+                                    <li><a href="#">Shop - Cart</a></li>
+                                    <li><a href="#">Shop - Checkout</a></li>
+                                    <li><a href="#">Shop - Compare</a></li>
+                                    <li>
+                                        <i class="fa-solid fa-angle-down"></i>
+                                        <a href="#">Shop Invoice</a>
+                                        <ul class="dropdown">
+                                            <li><a href="#">Shop Invoice 1</a></li>
+                                            <li><a href="#">Shop Invoice 2</a></li>
+                                            <li><a href="#">Shop Invoice 3</a></li>
+                                            <li><a href="#">Shop Invoice 4</a></li>
+                                            <li><a href="#">Shop Invoice 5</a></li>
+                                            <li><a href="#">Shop Invoice 6</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <i class="fa-solid fa-angle-down"></i>
+                                <a href="#">Vendors</a>
+                                <ul class="dropdown">
+                                    <li><a href="#">Vendors Grid</a></li>
+                                    <li><a href="#">Vendors List</a></li>
+                                    <li><a href="#">Vendor Details 01</a></li>
+                                    <li><a href="#">Vendor Details 02</a></li>
+                                    <li><a href="#">Vendor Dashboard</a></li>
+                                    <li><a href="#">Vendor Guide</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <i class="fa-solid fa-angle-down"></i>
+                                <a href="#">Mega Menu</a>
+                                <ul class="dropdown">
+                                    <li>
+                                        <i class="fa-solid fa-angle-down"></i>
+                                        <a href="#">Women's Fashion</a>
+                                        <ul class="dropdown">
+                                            <li><a href="#">Dresses</a></li>
+                                            <li><a href="#">Blouses & Shirts</a></li>
+                                            <li><a href="#">Hoodies & Sweatshirts</a></li>
+                                            <li><a href="#">Women's Sets</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-angle-down"></i>
+                                        <a href="#">Men's Fashion</a>
+                                        <ul class="dropdown">
+                                            <li><a href="#">Jackets</a></li>
+                                            <li><a href="#">Casual Faux Leather</a></li>
+                                            <li><a href="#">Genuine Leather</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-angle-down"></i>
+                                        <a href="#">Technology</a>
+                                        <ul class="dropdown">
+                                            <li><a href="#">Gaming Laptops</a></li>
+                                            <li><a href="#">Ultraslim Laptops</a></li>
+                                            <li><a href="#">Tablets</a></li>
+                                            <li><a href="#">Laptop Accessories</a></li>
+                                            <li><a href="#">Tablet Accessories</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <i class="fa-solid fa-angle-down"></i>
+                                <a href="#">Blog</a>
+                                <ul class="dropdown">
+                                    <li><a href="#">Blog Category Grid</a></li>
+                                    <li><a href="#">Blog Category List</a></li>
+                                    <li><a href="#">Blog Category Big</a></li>
+                                    <li><a href="#">Blog Category Wide</a></li>
+                                    <li>
+                                        <i class="fa-solid fa-angle-down"></i>
+                                        <a href="#">Single Product Layout</a>
+                                        <ul class="dropdown">
+                                            <li><a href="#">Left Sidebar</a></li>
+                                            <li><a href="#">Right Sidebar</a></li>
+                                            <li><a href="#">No Sidebar</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <i class="fa-solid fa-angle-down"></i>
+                                <a href="#">Pages</a>
+                                <ul class="dropdown">
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="#">My Account</a></li>
+                                    <li><a href="#">Login</a></li>
+                                    <li><a href="#">Register</a></li>
+                                    <li><a href="#">Purchase Guide</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="#">Terms of Service</a></li>
+                                    <li><a href="#">404 Page</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <i class="fa-solid fa-angle-down"></i>
+                                <a href="#">Language</a>
+                                <ul class="dropdown">
+                                    <li><a href="#">English</a></li>
+                                    <li><a href="#">French</a></li>
+                                    <li><a href="#">German</a></li>
+                                    <li><a href="#">Spanish</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="info">
+                    <a href="#">
+                        <i class="fa-solid fa-location-dot"></i>
+                        Our location
+                    </a>
+                    <a href="#">
+                        <i class="fa-regular fa-user"></i>
+                        Log In / Sign Up
+                    </a>
+                    <a href="#">
+                        <i class="fa-solid fa-headphones"></i>
+                        (+01) - 2345 - 6789
+                    </a>
+                </div>
+                <div class="socials">
+                    <h6>Follow Us</h6>
+                    <a href="#">
+                        <img src="img/icon-facebook-white.svg" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="img/icon-twitter-white.svg" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="img/icon-instagram-white.svg" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="img/icon-pinterest-white.svg" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="img/icon-youtube-white.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <section id="top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <ul class="links">
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">My Account</a></li>
+                            <li><a href="#">Wishlist</a></li>
+                            <li><a href="#">Order Tracking</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="news">
+                            <div class="slick-text">100% Secure delivery without contacting the courier</div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="help">
+                            <ul class="help-menu">
+                                <li class="help-menu-item">Need help? Call Us: <span class="highlight"> + 1800
+                                        900</span></li>
+                                <li class="help-menu-item lang">
+                                    English
+                                    <i class="fa-solid fa-angle-down"></i>
+                                    <ul class="flag-dropdown">
+                                        <li>
+                                            <img src="img/flag-fr.png" alt=""> France
+                                        </li>
+                                        <li>
+                                            <img src="img/flag-dt.png" alt=""> German
+                                        </li>
+                                        <li>
+                                            <img src="img/flag-fr.png" alt=""> France
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="help-menu-item lang">
+                                    USD
+                                    <i class="fa-solid fa-angle-down"></i>
+                                    <ul class="flag-dropdown currency-dropdown">
+                                        <li>
+                                            <img src="img/flag-fr.png" alt=""> INR
+                                        </li>
+                                        <li>
+                                            <img src="img/flag-dt.png" alt=""> MBP
+                                        </li>
+                                        <li>
+                                            <img src="img/flag-fr.png" alt=""> EU
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="bottom">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-1 d-xl-none">
+                        <div class="navbar-collapse-button" id="btn-open-navbar">
+                            <i class="fa-solid fa-bars"></i>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-5 col-md-6 col-sm-6 col-8">
+                        <div class="logo">
+                            <img src="img/logo.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-xl-6 d-none d-xl-block">
+                        <div class="search-box">
+                            <input type="text" placeholder="Search for items...">
+                            <img src="img/search.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-5 col-sm-5 col-3">
+                        <div class="actions">
+                            <div class="action hide-action">
+                                <div class="icon1">
+                                    <img src="img/icon-compare.svg" alt="">
+                                    <span>6</span>
+                                </div>
+                                <div class="text">
+                                    <p>Compare</p>
+                                </div>
+                            </div>
+                            <div class="action">
+                                <div class="icon">
+                                    <img src="img/icon-heart.svg" alt="">
+                                    <span>6</span>
+                                </div>
+                                <div class="text">
+                                    <p>Wishlist</p>
+                                </div>
+                            </div>
+                            <div class="action cart-action">
+                                <div class="icon">
+                                    <img src="img/icon-cart.svg" alt="">
+                                    <span>6</span>
+                                </div>
+                                <div class="text">
+                                    <p>Cart</p>
+                                </div>
+                                <div class="cart">
+                                    <ul>
+                                        <li>
+                                            <img src="img/thumbnail-2.jpg" alt="">
+                                            <div class="description">
+                                                <div class="name">Daisy Casual Bag</div>
+                                                <div class="price">
+                                                    <span class="quantity">1</span> × <span
+                                                        class="amount">$3200.00</span>
+                                                </div>
+                                            </div>
+                                            <i class="fa-solid fa-xmark"></i>
+                                        </li>
+                                        <li>
+                                            <img src="img/thumbnail-2.jpg" alt="">
+                                            <div class="description">
+                                                <div class="name">Daisy Casual Bag</div>
+                                                <div class="price">
+                                                    <span class="quantity">1</span> × <span
+                                                        class="amount">$3200.00</span>
+                                                </div>
+                                            </div>
+                                            <i class="fa-solid fa-xmark"></i>
+                                        </li>
+                                    </ul>
+                                    <div class="cart-footer">
+                                        <div class="total">
+                                            <p class="text">Total</p>
+                                            <p class="price">$4000.00</p>
+                                        </div>
+                                        <div class="buttons">
+                                            <button class="btn-cart" type="button">View cart</button>
+                                            <button class="btn-checkout" type="button">Checkout</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="action acc-action hide-action">
+                                <div class="icon1">
+                                    <img src="img/icon-user.svg" alt="">
+                                </div>
+                                <div class="text">
+                                    <p>Account</p>
+                                </div>
+                                <div class="account-dropdown">
+                                    <ul>
+                                        <li>
+                                            <i class="fa-regular fa-user"></i> My Account
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-location-dot"></i> Order Tracking
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-tag"></i> My Voucher
+                                        </li>
+                                        <li>
+                                            <i class="fa-regular fa-heart"></i> My Wishlist
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-sliders"></i> Settings
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-arrow-right-from-bracket"></i> Sign out
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="nav">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-10">
+                        <div class="content-wrapper">
+                            <div class="categories hide-categories">
+                                <button type="button">
+                                    <i class="fa-solid fa-table-cells-large"></i>
+                                    Trending Categories
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </button>
+                            </div>
+                            <div class="deals hide-deals">
+                                <img src="img/icon-hot-white.svg" alt=""> Hot Deals
+                            </div>
+                            <nav>
+                                <ul class="navigation">
+                                    <li class="nav-item"><a href="#">Home <i class="fa-solid fa-angle-down"></i></a>
+                                        <ul class="sub-menu">
+                                            <li><a href="#">Home 1</a></li>
+                                            <li><a href="#">Home 2</a></li>
+                                            <li><a href="#">Home 3</a></li>
+                                            <li><a href="#">Home 4</a></li>
+                                            <li><a href="#">Home 5</a></li>
+                                            <li><a href="index.html">Home 6</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item"><a href="about.html">About</a></li>
+                                    <li class="nav-item"><a href="#">Shop <i class="fa-solid fa-angle-down"></i></a>
+                                        <ul class="sub-menu">
+                                            <li><a href="#">Shop Grid - Right Sidebar</a></li>
+                                            <li><a href="#">Shop Grid - Left Sidebar</a></li>
+                                            <li><a href="#">Shop List - Right Sidebar</a></li>
+                                            <li><a href="#">Shop List - Left Sidebar</a></li>
+                                            <li><a href="shopwide.html">Shop - Wide</a></li>
+                                            <li><a href="#">Single Product <i class="fa-solid fa-angle-right"></i></a>
+                                                <ul class="level-menu">
+                                                    <li><a href="#">Product – Right Sidebar</a></li>
+                                                    <li><a href="#">Product – Left Sidebar</a></li>
+                                                    <li><a href="#">Product – No Sidebar</a></li>
+                                                    <li><a href="#">Product – Vendor Info</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#">Shop - Filter</a></li>
+                                            <li><a href="#">Shop - Wishlist</a></li>
+                                            <li><a href="#">Shop - Cart</a></li>
+                                            <li><a href="#">Shop - Checkout</a></li>
+                                            <li><a href="#">Shop - Compare</a></li>
+                                            <li><a href="#">Shop Invoice <i class="fa-solid fa-angle-right"></i></a>
+                                                <ul class="level-menu">
+                                                    <li><a href="#">Shop Invoice 1</a></li>
+                                                    <li><a href="#">Shop Invoice 2</a></li>
+                                                    <li><a href="#">Shop Invoice 3</a></li>
+                                                    <li><a href="#">Shop Invoice 4</a></li>
+                                                    <li><a href="#">Shop Invoice 5</a></li>
+                                                    <li><a href="#">Shop Invoice 6</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item"><a href="#">Vendors <i class="fa-solid fa-angle-down"></i></a>
+                                        <ul class="sub-menu">
+                                            <li><a href="#">Vendors Grid</a></li>
+                                            <li><a href="#">Vendors List</a></li>
+                                            <li><a href="#">Vendor Details 01</a></li>
+                                            <li><a href="#">Vendor Details 02</a></li>
+                                            <li><a href="#">Vendor Dashboard</a></li>
+                                            <li><a href="#">Vendor Guide</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item" style="position: static;"><a href="#">Mega menu <i
+                                                class="fa-solid fa-angle-down"></i></a>
+                                        <ul class="mega-menu">
+                                            <li class="sub-mega-menu">
+                                                <a href="#">Fruit & Vegetables</a>
+                                                <ul>
+                                                    <li><a href="#">Meat & Poultry</a></li>
+                                                    <li><a href="#">Fresh Vegetables</a></li>
+                                                    <li><a href="#">Herbs & Seasonings</a></li>
+                                                    <li><a href="#">Cuts & Sprouts</a></li>
+                                                    <li><a href="#">Exotic Fruits & Veggies</a></li>
+                                                    <li><a href="#">Packaged Produce</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="sub-mega-menu">
+                                                <a href="#">Breakfast & Dairy</a>
+                                                <ul>
+                                                    <li><a href="#">Milk & Flavoured Milk</a></li>
+                                                    <li><a href="#">Butter and Margarine</a></li>
+                                                    <li><a href="#">Eggs Substitutes</a></li>
+                                                    <li><a href="#">Marmalades</a></li>
+                                                    <li><a href="#">Sour Cream</a></li>
+                                                    <li><a href="#">Cheese</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="sub-mega-menu">
+                                                <a href="#">Meat & Seafood</a>
+                                                <ul>
+                                                    <li><a href="#">Breakfast Sausage</a></li>
+                                                    <li><a href="#">Dinner Sausage</a></li>
+                                                    <li><a href="#">Chicken</a></li>
+                                                    <li><a href="#">Sliced Deli Meat</a></li>
+                                                    <li><a href="#">Wild Caught Fillets</a></li>
+                                                    <li><a href="#">Crab and Shellfish</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="sub-mega-menu">
+                                                <div class="menu-banner-wrapper">
+                                                    <a href="#">
+                                                        <img src="img/banner-menu.png" alt="">
+                                                    </a>
+                                                    <div class="content">
+                                                        <h4>Hot Deals</h4>
+                                                        <h3>Don't miss <br> Trending</h3>
+                                                        <p>Save to 50%</p>
+                                                        <button type="button">Shop now</button>
+                                                    </div>
+                                                    <div class="discount">
+                                                        <h3>
+                                                            <span>25%</span>
+                                                            off
+                                                        </h3>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item"><a href="#">Blog <i class="fa-solid fa-angle-down"></i></a>
+                                        <ul class="sub-menu">
+                                            <li><a href="#">Blog Category Grid</a></li>
+                                            <li><a href="#">Blog Category List</a></li>
+                                            <li><a href="#">Blog Category Big</a></li>
+                                            <li><a href="#">Blog Category Wide</a></li>
+                                            <li><a href="#">Single Post <i class="fa-solid fa-angle-right"></i></a>
+                                                <ul class="level-menu">
+                                                    <li><a href="#">Left Sidebar</a></li>
+                                                    <li><a href="#">Right Sidebar</a></li>
+                                                    <li><a href="#">No Sidebar</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item"><a href="#">Pages <i class="fa-solid fa-angle-down"></i></a>
+                                        <ul class="sub-menu">
+                                            <li><a href="#">About Us</a></li>
+                                            <li><a href="contact.html">Contact</a></li>
+                                            <li><a href="#">My Account</a></li>
+                                            <li><a href="#">Login</a></li>
+                                            <li><a href="#">Register</a></li>
+                                            <li><a href="#">Purchase Guide</a></li>
+                                            <li><a href="#">Privacy Policy</a></li>
+                                            <li><a href="#">Terms of Service</a></li>
+                                            <li><a href="#">404 Page</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item"><a href="contact.html">Contact</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-xl-2">
+                        <div class="contact">
+                            <div class="content-wrapper">
+                                <img src="img/icon-headphone-white.svg" alt="">
+                                <div class="text">
+                                    <span>1900 - 888</span>
+                                    <span>24/7 Support Center</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <div id="small">
+        <div class="info">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <a href=""><i class="fa-solid fa-house"></i>Home</a>
+                        <span>Pages</span>
+                        <span>About us</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="product">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="image">
+                                <!-- <img src="http://wp.alithemes.com/html/nest/demo/assets/imgs/shop/product-16-1.jpg" alt="#" id="zoom_in" > -->
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="text">
+                                <span class="sale">Sale Off</span>
+                                <h2>Seeds of Change Organic Quinoa, <br> Brown</h2>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <span>(32 reviews)</span>
+                                <br>
+                                <div class="price1 d-flex">
+                                    <span class="price">$38</span>
+                                    <div class="prices">
+                                        <span class="off">26% off</span>
+                                        <p><del>$52</del></p>
+                                    </div>
+                                </div>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam rem officia,
+                                    corrupti reiciendis minima nisi modi, quasi, odio minus dolore impedit fuga eum
+                                    eligendi.</p>
+                                <span class="size">Size/Weight:</span>
+                                <a href="">50g</a><a href="">60g</a><a href="">80g</a><a href="">100g</a><a
+                                    href="">150g</a>
+                                <div class="text2">
+                                    <span class="num">1</span>
+                                    <i class="fa-solid fa-chevron-up upp"></i>
+                                    <i class="fa-solid fa-chevron-down down"></i>
+                                    <button>Add to cart</button>
+                                    <i class="fa-solid fa-heart second"></i>
+                                    <i class="fa-solid fa-shuffle second"></i>
+                                </div>
+                                <div class="lists1 d-flex">
+                                    <ul>
+                                        <li>
+                                            Type: <span>Organic</span></li>
+                                        <li>MFG: <span>Jun 4.2021</span></li>
+                                        <li>Life: <span>70 days</span></li>
+                                    </ul>
+
+
+                                    <ul class="bottle">
+                                        <li>
+                                            SKU: <span>FWM15VKT</span>
+                                        </li>
+                                        <li>Tags: <span>Snack,Organic,Brown</span></li>
+                                        <li>Stock: <span>8 Items in Stock</span></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div id="allinfo">
+                                <div class="tab-menu">
+                                    <div data-index="1" class="active ">Description</div>
+                                    <div data-index="2">Additional-info</div>
+                                    <div data-index="3">Vendor</div>
+                                    <div data-index="3">Reviews(3)</div>
+                                </div>
+                                <div class="content">
+                                    <div data-index="1">
+                                        <p>Uninhibited carnally hired played in whimpered dear gorilla koala depending
+                                            and
+                                            much yikes off far quetzal goodness and from for grimaced goodness
+                                            unaccountably
+                                            and meadowlark near unblushingly crucial scallop tightly neurotic hungrily
+                                            some
+                                            and dear furiously this apart.</p>
+
+                                        <p>Spluttered narrowly yikes left moth in yikes bowed this that grizzly much
+                                            hello
+                                            on spoon-fed that alas rethought much decently richly and wow against the
+                                            frequent fluidly at formidable acceptably flapped besides and much circa far
+                                            over the bucolically hey precarious goldfinch mastodon goodness gnashed a
+                                            jellyfish and one however because.
+                                        </p>
+
+
+                                        <hr>
+                                        <p>Laconic overheard dear woodchuck wow this outrageously taut beaver hey hello
+                                            far
+                                            meadowlark imitatively egregiously hugged that yikes minimally unanimous
+                                            pouted
+                                            flirtatiously as beaver beheld above forward energetic across this jeepers
+                                            beneficently cockily less a the raucously that magic upheld far so the this
+                                            where crud then below after jeez enchanting drunkenly more much wow
+                                            callously
+                                            irrespective limpet.</p>
+                                        <h4>Packaging Delivery</h4>
+                                        <hr>
+                                        <p>Less lion goodness that euphemistically robin expeditiously bluebird smugly
+                                            scratched far while thus cackled sheepishly rigid after due one assenting
+                                            regarding censorious while occasional or this more crane went more as this
+                                            less
+                                            much amid overhung anathematic because much held one exuberantly sheep
+                                            goodness
+                                            so where rat wry well concomitantly.</p>
+                                        <h4>Suggested Use</h4>
+                                        <ul class="bottle">
+                                            <li>Refrigeration not necessary.</li>
+                                            <li>Stir before serving</li>
+                                        </ul>
+                                        <h4>Other Ingredients</h4>
+                                        <ul class="bottle">
+
+                                            <li>Organic raw pecans, organic raw cashews.</li>
+                                            <li>This butter was produced using a LTG (Low Temperature Grinding) process
+                                            </li>
+                                            <li>Made in machinery that processes tree nuts but does not process peanuts,
+                                                gluten, dairy or soy</li>
+                                        </ul>
+                                        <h4>Warnings</h4>
+                                        <ul class="bottle">
+                                            <li>Oil separation occurs naturally. May contain pieces of shell.</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="d-none" data-index="2">
+                                        <div class="tab-pane fade active show" id="Additional-info">
+                                            <table class="font-md">
+                                                <tbody>
+                                                    <tr class="stand-up">
+                                                        <th>Stand Up</th>
+                                                        <td>
+                                                            <p>35″L x 24″W x 37-45″H(front to back wheel)</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="folded-wo-wheels">
+                                                        <th>Folded (w/o wheels)</th>
+                                                        <td>
+                                                            <p>32.5″L x 18.5″W x 16.5″H</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="folded-w-wheels">
+                                                        <th>Folded (w/ wheels)</th>
+                                                        <td>
+                                                            <p>32.5″L x 24″W x 18.5″H</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="door-pass-through">
+                                                        <th>Door Pass Through</th>
+                                                        <td>
+                                                            <p>24</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="frame">
+                                                        <th>Frame</th>
+                                                        <td>
+                                                            <p>Aluminum</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="weight-wo-wheels">
+                                                        <th>Weight (w/o wheels)</th>
+                                                        <td>
+                                                            <p>20 LBS</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="weight-capacity">
+                                                        <th>Weight Capacity</th>
+                                                        <td>
+                                                            <p>60 LBS</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="width">
+                                                        <th>Width</th>
+                                                        <td>
+                                                            <p>24″</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="handle-height-ground-to-handle">
+                                                        <th>Handle height (ground to handle)</th>
+                                                        <td>
+                                                            <p>37-45″</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="wheels">
+                                                        <th>Wheels</th>
+                                                        <td>
+                                                            <p>12″ air / wide track slick tread</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="seat-back-height">
+                                                        <th>Seat back height</th>
+                                                        <td>
+                                                            <p>21.5″</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="head-room-inside-canopy">
+                                                        <th>Head room (inside canopy)</th>
+                                                        <td>
+                                                            <p>25″</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="pa_color">
+                                                        <th>Color</th>
+                                                        <td>
+                                                            <p>Black, Blue, Red, White</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="pa_size">
+                                                        <th>Size</th>
+                                                        <td>
+                                                            <p>M, S</p>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+
+                                    <div class="d-none" data-index="3">
+                                        <div class="icons d-flex">
+                                            <img src="http://wp.alithemes.com/html/nest/demo/assets/imgs/vendor/vendor-18.svg"
+                                                alt="">
+                                            <div class="nod">
+                                                <a class="noodle" href="">Noodles CO</a>
+                                                <br>
+                                                <i class="fa-solid fa-star yellow"></i><i
+                                                    class="fa-solid fa-star yellow"></i><i
+                                                    class="fa-solid fa-star yellow"></i><i
+                                                    class="fa-solid fa-star yellow"></i><i
+                                                    class="fa-solid fa-star yellow"></i>
+                                                <span>(32 Reviews)</span>
+                                            </div>
+                                        </div>
+
+
+                                        <p><i class="fa-solid fa-location-dot"></i> <strong>Address:</strong> 5171 W
+                                            Campbell Ave undefined Kent, Utah 53127 United States</p>
+                                        <p><i class="fa-solid fa-headphones"></i><strong>Contact Seller:</strong>(+91) -
+                                            540-025-553
+
+                                        </p>
+                                        <div class="rating d-flex">
+
+                                            <div class="box1">
+                                                <p>Rating</p>
+                                                <h4>92%</h4>
+                                            </div>
+                                            <div class="box1">
+                                                <p>Ship on time</p>
+                                                <h4>100%</h4>
+                                            </div>
+                                            <div class="box1">
+                                                <p>Chat response</p>
+                                                <h4>89%</h4>
+                                            </div>
+
+                                        </div>
+                                        <p class="bottom">
+                                            Noodles & Company is an American fast-casual restaurant that offers
+                                            international and American noodle dishes and pasta in addition to soups and
+                                            salads. Noodles & Company was founded in 1995 by Aaron Kennedy and is
+                                            headquartered in Broomfield, Colorado. The company went public in 2013 and
+                                            recorded a $457 million revenue in 2017.In late 2018, there were 460 Noodles
+                                            &
+                                            Company locations across 29 states and Washington, D.C.
+                                        </p>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div id="related">
+                            <h2>
+                                Related products
+                            </h2>
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <div class="box2">
+                                        <div class="top">
+                                            <img src="http://wp.alithemes.com/html/nest/demo/assets/imgs/shop/product-2-1.jpg"
+                                                alt="">
+                                            <img class="img2"
+                                                src="http://wp.alithemes.com/html/nest/demo/assets/imgs/shop/product-2-2.jpg"
+                                                alt="">
+                                            <div class="buttons">
+                                                <i class="fa-solid fa-heart"></i>
+                                                <i class="fa-solid fa-shuffle"></i>
+                                                <i class="fa-solid fa-eye"></i>
+                                            </div>
+                                        </div>
+                                        <div class="prod-text">
+                                            <a href="">Ulstra Bass Headphone</a>
+                                            <br>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <br>
+                                            <span class="price">$238.85</span>
+                                            <del>$245.8</del>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="box2">
+                                        <div class="top">
+                                            <img src="http://wp.alithemes.com/html/nest/demo/assets/imgs/shop/product-3-1.jpg"
+                                                alt="">
+                                            <img class="img2"
+                                                src="http://wp.alithemes.com/html/nest/demo/assets/imgs/shop/product-3-2.jpg"
+                                                alt="">
+                                            <div class="buttons">
+                                                <i class="fa-solid fa-heart"></i>
+                                                <i class="fa-solid fa-shuffle"></i>
+                                                <i class="fa-solid fa-eye"></i>
+                                            </div>
+
+                                        </div>
+                                        <div class="prod-text">
+                                            <a href="">Ulstra Bass Headphone</a>
+                                            <br>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <br>
+                                            <span class="price">$238.85</span>
+                                            <del>$245.8</del>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="box2">
+                                        <div class="top">
+                                            <img src="http://wp.alithemes.com/html/nest/demo/assets/imgs/shop/product-4-1.jpg"
+                                                alt="">
+                                            <img class="img2"
+                                                src="http://wp.alithemes.com/html/nest/demo/assets/imgs/shop/product-4-2.jpg"
+                                                alt="">
+                                            <div class="buttons">
+                                                <i class="fa-solid fa-heart"></i>
+                                                <i class="fa-solid fa-shuffle"></i>
+                                                <i class="fa-solid fa-eye"></i>
+                                            </div>
+                                        </div>
+
+                                        <div class="prod-text">
+                                            <a href="">Ulstra Bass Headphone</a>
+                                            <br>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <br>
+                                            <span class="price">$238.85</span>
+                                            <del>$245.8</del>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="box2">
+                                        <div class="top">
+                                            <img src="http://wp.alithemes.com/html/nest/demo/assets/imgs/shop/product-5-1.jpg"
+                                                alt="">
+                                            <img class="img2"
+                                                src="http://wp.alithemes.com/html/nest/demo/assets/imgs/shop/product-5-2.jpg"
+                                                alt="">
+                                            <div class="buttons">
+                                                <i class="fa-solid fa-heart"></i>
+                                                <i class="fa-solid fa-shuffle"></i>
+                                                <i class="fa-solid fa-eye"></i>
+                                            </div>
+                                        </div>
+                                        <div class="prod-text">
+                                            <a href="">Ulstra Bass Headphone</a>
+                                            <br>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <br>
+                                            <span class="price">$238.85</span>
+                                            <del>$245.8</del>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-3">
+
+                    <div class="all">
+                        <div class="catagory-text">
+                            <h5>Category</h5>
+                        </div>
+                        <div class="box">
+                            <img src="http://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/category-1.svg"
+                                alt="">
+                            <a href="">Milk & Dairies</a>
+                            <span>30</span>
+                        </div>
+                        <div class="box">
+                            <img src="http://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/category-2.svg"
+                                alt="">
+                            <a href="">Product</a>
+                            <span>35</span>
+                        </div>
+                        <div class="box">
+                            <img src="http://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/category-3.svg"
+                                alt="">
+                            <a href="">Pet Foods</a>
+                            <span>42</span>
+
+                        </div>
+                        <div class="box">
+                            <img src="http://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/category-4.svg"
+                                alt="">
+                            <a href="">Baking Material</a>
+                            <span>68</span>
+                        </div>
+                        <div class="box">
+                            <img src="http://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/category-5.svg"
+                                alt="">
+                            <a href="">Fresh Fruit</a>
+                            <span>87</span>
+                        </div>
+                    </div>
+                    <div class="widget">
+                        <div id="price">
+                            <h5>Fill by price</h5>
+                            <div class="price-filter">
+                                <div class="price-filter-inner">
+                                    <div id="slider" class="noUi-target noUi-ltr noUi-horizontal noUi-background">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <span>From:$500</span>
+                            <span>To:$1.000</span>
+                            <p>Color</p>
+                            <input type="checkbox">
+                            <span class="checkmark">Red (56)</span>
+                            <br>
+                            <input type="checkbox">
+                            <span class="checkmark">Green (78)</span>
+                            <br>
+                            <input type="checkbox">
+                            <span class="checkmark">Blue (54)</span>
+                            <p>Item Condition</p>
+                            <input type="checkbox">
+                            <span class="checkmark">New (1506)</span>
+                            <br>
+                            <input type="checkbox">
+                            <span class="checkmark">Refurbished (27)</span>
+                            <br>
+                            <input type="checkbox">
+                            <span class="checkmark">Used(45)</span>
+                            <br>
+                            <button>Filter</button>
+                        </div>
+
+
+                    </div>
+
+                    <div id="productss">
+                        <div class="prod-text">
+                            <h5>New products</h5>
+
+                        </div>
+                        <div class="box1 d-flex">
+                            <img src="http://wp.alithemes.com/html/nest/demo/assets/imgs/shop/thumbnail-3.jpg" alt="">
+                            <div id="info">
+                                <a href="">Chen Cardrigan</a>
+                                <p>$99.50</p>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="box1 d-flex">
+                            <img src="http://wp.alithemes.com/html/nest/demo/assets/imgs/shop/thumbnail-4.jpg" alt="">
+                            <div id="info">
+                                <a href="">Chen Cardrigan</a>
+                                <p>$99.50</p>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="box1 d-flex">
+                            <img src="http://wp.alithemes.com/html/nest/demo/assets/imgs/shop/thumbnail-5.jpg" alt="">
+                            <div id="info">
+                                <a href="">Chen Cardrigan</a>
+                                <p>$99.50</p>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div id="orange">
+                        <img src="http://wp.alithemes.com/html/nest/demo/assets/imgs/banner/banner-11.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="stayhome">
+        <div class="container-fluid">
+            <div class="row">
+                <h5>
+                    Stay home & get your daily <br />
+                    needs from our shop
+                </h5>
+                <p>Start You'r Daily Shopping with <span>Nest Mart</span></p>
+                <form action="">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="email" placeholder="Your email address" />
+                    <button class="sub">Subscribe</button>
+                </form>
+                <img src="imgnest/banner-9.png" alt="">
+            </div>
+        </div>
+    </section>
+    <div id="best">
+        <div class="container">
+            <div class="row d-flex">
+                <div class="box">
+                    <div class="left">
+                        <img src="http://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/icon-1.svg" alt="" />
+                    </div>
+                    <div class="text">
+                        <h3>
+                            Best prices & <br />
+                            offers
+                        </h3>
+                        <p>Orders $50 or more</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="left">
+                        <img src="http://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/icon-2.svg" alt="" />
+                    </div>
+                    <div class="icon">
+                        <h3>Free Delivery</h3>
+                        <p>24/7 amazing services</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="left">
+                        <img src="http://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/icon-3.svg" alt="" />
+                    </div>
+                    <div class="text">
+                        <h3>Great Daily deal</h3>
+                        <p>When you sign up</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="left">
+                        <img src="http://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/icon-4.svg" alt="" />
+                    </div>
+                    <div class="text">
+                        <h3>Wide assortment</h3>
+                        <p>Mega Discounts</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="left">
+                        <img src="http://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/icon-5.svg" alt="" />
+                    </div>
+                    <div class="text">
+                        <h3>Easy returns</h3>
+                        <p>Easy returns Within 30 days</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <footer class="text-center text-lg-start bg-light text-muted">
+
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+
+        </section>
+
+        <section class="">
+            <div class="container-fluid text-center text-md-start mt-5">
+
+                <div class="row mt-3">
+                    <div class=" col-lg-2 col-6">
+
+                        <img src="http://wp.alithemes.com/html/nest/demo/assets/imgs/theme/logo.svg" alt="">
+                        <p>Awesome grocery store website <br> template</p>
+                        <p><i class="fas fa-home me-3"></i> <strong>Address:</strong> 5171 W Campbell Ave <br> undefined
+                            Kent, Utah 53127 United States</p>
+                        <p><i class="fas fa-phone me-3"></i> <strong>Call Us</strong> (+91) - 540-025-124553</p>
+                        <p>
+                            <i class="fas fa-envelope me-3"></i>
+                            <strong>Email:</strong>
+                            sale@Nest.com
+                        </p>
+
+                        <p><i class="fa-solid fa-clock-rotate-left"></i><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat
+                        </p>
+
+                    </div>
+
+                    <div class=" col-lg-2 col-6  ">
+
+                        <h4 class="text-uppercase fw-bold mb-4">
+                            Company
+                        </h4>
+                        <p>
+                            <a href="#!" class="text-reset">About us</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Delivery Information</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Contact Us</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Privacy & Policy</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Terms and Conditions</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Support Center</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Careers</a>
+                        </p>
+                    </div>
+                    <div class=" col-lg-2  col-6">
+
+                        <h4 class="text-uppercase fw-bold mb-4">
+                            Account
+                        </h4>
+                        <p>
+                            <a href="#!" class="text-reset">Sign in</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">View Cart</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Mywhislist</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Track My Order</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Help Ticket</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Shipping Details</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Compare products</a>
+                        </p>
+                    </div>
+
+                    <div class=" col-lg-2 col-6">
+
+                        <h4 class="text-uppercase fw-bold mb-4">
+                            Corporate
+                        </h4>
+                        <p>
+                            <a href="#!" class="text-reset">Become a Vendor</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Affiliate Program</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Farm Bussiness</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Farm Careers</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Our Suppliers/a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Accessibility</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Promotions</a>
+                        </p>
+                    </div>
+
+                    <div class="col-lg-2 col-6">
+
+                        <h4 class="text-uppercase fw-bold mb-4">
+                            Popular
+                        </h4>
+                        <p>
+                            <a href="#!" class="text-reset">Milk & Flavoured Milk</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Butter and Margarine</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Eggs Subsituites</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Marmalades</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Sour Cream and Dips</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Tea & Kombuchka</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Cheese</a>
+                        </p>
+                    </div>
+                    <div class="col-lg-2 col-6">
+
+                        <h4 class="text-uppercase fw-bold mb-4">
+                            <strong>Install App</strong>
+                        </h4>
+                        <p>
+                            <a href="#!" class="text-reset">From App Store or Google Play</a>
+                        </p>
+
+                        <div class="app-store row">
+                            <img style="width: 100px !important;"
+                                src="http://wp.alithemes.com/html/nest/demo/assets/imgs/theme/app-store.jpg" alt="">
+                            <img style="width: 100px !important;"
+                                src="http://wp.alithemes.com/html/nest/demo/assets/imgs/theme/google-play.jpg" alt="">
+                        </div>
+                        <p>
+                            <a href="#!" class="text-reset">Secured Payment Gateways</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset"> <img
+                                    src="http://wp.alithemes.com/html/nest/demo/assets/imgs/theme/payment-method.png"
+                                    alt=""></a>
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+        <hr>
+        <div class="bottom">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-4 col-12">
+                        <p>
+                            © 2021, Nest - HTML Ecommerce Template <br>
+                            All rights reserved</p>
+                    </div>
+                    <div class="col-lg-4 d-flex duh">
+                        <img src="http://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/phone-call.svg" alt=""
+                            width="5%">
+                        <p class="work">1900-6666 <br> <span>Working 8.00 -22.00</span> </p>
+                        <img src="http://wp.alithemes.com/html/nest/demo/assets/imgs/theme/icons/phone-call.svg" alt=""
+                            width="5%">
+                        <p class="work"> 1900-8888 <br> <span> Working 8.00 -22.00</span></p>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="follow d-flex">
+                            <h6>Follow us</h6>
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-pinterest"></i>
+                            <i class="fa-brands fa-youtube"></i>
+                        </div>
+                        <p>Up to 15% discount on your first subscribe</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
